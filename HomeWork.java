@@ -63,7 +63,7 @@ public class HomeWork extends HttpServlet {
 				           "  <LI><B>Hobby</B>: "				          				
 				);
 		for (String s : param4) {
-			out.print(s+" ");
+			out.print(s+"\n");
 		}
 		out.print("</UL>\n" +
 		           "</BODY></HTML>");
